@@ -3,11 +3,11 @@ provider "azurerm" {
   features {
 
   }
-  subscription_id = "b48787a1-7145-425f-99af-62cde6c50e31"  #ARM_SUBSCRIPTION_ID
-  client_id       = "51ac1b46-b6cb-4cd1-877c-b7cee3581e7e"  #ARM_CLIENT_ID
-  tenant_id       = "f3450d00-1632-47b8-ab1b-c7c1617ef6cd"  #ARM_TENANT_ID
-  use_oidc        = true  #ARM_USE_OIDC
-  oidc_token      = var.oidc_token  #ARM_OIDC_TOKEN
+   subscription_id = "b48787a1-7145-425f-99af-62cde6c50e31"  #ARM_SUBSCRIPTION_ID
+   client_id       = "51ac1b46-b6cb-4cd1-877c-b7cee3581e7e"  #ARM_CLIENT_ID
+   tenant_id       = "f3450d00-1632-47b8-ab1b-c7c1617ef6cd"  #ARM_TENANT_ID
+   use_oidc        = true  #ARM_USE_OIDC
+  # oidc_token      = var.oidc_token  #ARM_OIDC_TOKEN
 }
 
 # Vars

@@ -1,6 +1,6 @@
-module "kkk" {
-  source = "api-pr13860.dev.env0.com/14f5ba05-edfc-44e6-81b8-a38d734a0dfa/kkk/dasd"
-  version = "1.0.0"
+module "cgfd" {
+  source = "api-dev.dev.env0.com/bd12a04a-b051-4f51-9a8a-8a32ac198802/cgfd/h"
+  version = "2.0.1-beta"
 }
 
 resource "null_resource" "null" {

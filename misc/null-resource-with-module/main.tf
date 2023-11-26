@@ -1,5 +1,5 @@
-module "kkk" {
-  source = "api-pr13860.dev.env0.com/14f5ba05-edfc-44e6-81b8-a38d734a0dfa/kkk/dasd"
+module "module" {
+  source = "api-pr13934.dev.env0.com/f10d7b18-dc60-468c-9720-ea2389a17346/module/a"
   version = "2.0.0"
 }
 
